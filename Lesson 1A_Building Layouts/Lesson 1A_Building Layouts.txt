@@ -1,0 +1,65 @@
+LearningSomethingNew
+VocabWords
+https://developers.google.com/android/for-all/vocab-words/
+Views
+IDE
+CamelCase
+XML
+WritingCode = WritingInstructions
+XML Syntax
+Syntax means the rules that defines what valid XML is.
+For every XML tag, when you start or open up a tag. You always need to close it. It's kind of like putting a period at the end of a statement, but for XML you need to make sure you close each tag.
+
+self-closing tag
+<TextView
+             />
+separate opening tag and separate closing tag
+<TextView>
+</TextView>
+
+Attributes are characteristics that determine the behavior or the appearance of the view on Android phone.
+
+Attribute Name    Attribute Value in "Quotations"
+
+TextView has default values for all of it's attributes.
+https://drive.google.com/file/d/0B5XIkMkayHgRMVljUVIyZzNmQUU/view
+
+<TextView
+    android:text="Happy Birthday!"
+    android:background="@android:color/darker_gray"
+    android:layout_width="150dp"
+    android:layout_height="750dp"
+/>
+
+dp
+(all touch targets like buttons should be at least 48dps tall and wide.
+http://www.google.com/design/spec/layout/metrics-keylines.html#metrics-keylines-touch-target-size)
+
+
+hard coding a value.
+wrap_content
+
+sp
+sp is only used for fonts.
+
+http://www.google.com/design/spec/style/typography.html#typography-styles
+
+<TextView
+    …
+    android:textAppearance="?android:textAppearanceLarge" />
+
+HexColor
+http://www.google.com/design/spec/style/color.html#color-color-palette
+
+<TextView
+    …
+    android:textColor="#000"
+    android:textSize="45sp"/>
+
+<ImageView
+    android:src="@drawable/cake"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="centerCrop"/>
+
+Google search for "text view android"
